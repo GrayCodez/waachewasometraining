@@ -4,32 +4,75 @@
         <title>Arusha Food</title>
     </head>
     <style>
-        div{
-            background-color:green;
-            height: 600px;
-            padding-top:100px;
-            z-index: 10;
-        }
 
+     #bangolakwanza{
+      background-image: url("deliciousfood.png");
+      background-size: 100%;
+      padding-top:100px;
+      height:600px;
+      width:100%;
+      
+     }
+
+    #bangolakwanza h1{
+         color: white;
+         text-align:center;
+         text-transform: capitalize;
+     }
+    
+    h6{
+        color:white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #service-container{
+        height: 300px;
+        background-color:black;
+        padding: 10px 10%;
+    }
+    #service-container div{
+        width:30%;
+        height: 100%;
+        background-color: lightgrey;
+        float:left;
+        margin-left: 2%;
+        padding-top: 10px;
+        border-top: solid 2px red;
         
-        h1{
-            color:white;
-            text-align: center;
-            text-transform: capitalize;
-           
-        
-        }
-        h6{
-            color:white;
-            text-align: center;
-            z-index: 10;
-        }
+
+    }
+    #service-container div p{
+        text-align: center;
+    }
+    #service-container div h1{
+        text-align: center;
+    }
+    #service-container div img{
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+    
     </style>
+
     <body>
-        <div>
+        <div id="bangolakwanza">
                 <h1>arusha food company</h1>
                 <h6>Creative girls, creative community</h6>
         </div>
+
+        <div id="service-container">
+            <div>
+                <img src="deliciousfood.png"  >
+                <h1>Hello There</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Nesciunt fugit quam suscipit dolor corporis</p>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+        
     </body>
 </html>
     
